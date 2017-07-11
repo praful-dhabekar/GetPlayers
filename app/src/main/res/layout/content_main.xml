@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.praful.getplayers.MainActivity"
+    tools:showIn="@layout/activity_main">
+
+    <ImageView
+        android:id="@+id/profile_pic_1"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:src="@mipmap/ic_launcher"/>
+
+    <TextView
+        android:id="@+id/profile_name_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:text="Lionel Messi"
+        android:textSize="15dp"
+        android:layout_toRightOf="@+id/profile_pic_1"
+        />
+
+    <ImageView
+        android:id="@+id/profile_pic_2"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:src="@mipmap/ic_launcher"
+        android:layout_below="@+id/profile_pic_1"/>
+
+    <TextView
+        android:id="@+id/profile_name_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:text="Neymar Jr."
+        android:textSize="15dp"
+        android:layout_below="@+id/profile_pic_1"
+        android:layout_toRightOf="@+id/profile_pic_2"
+        />
+
+    <ImageView
+        android:id="@+id/profile_pic_3"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:src="@mipmap/ic_launcher"
+        android:layout_below="@+id/profile_pic_2"/>
+
+    <TextView
+        android:id="@+id/profile_name_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:text="Luis Suárez"
+        android:textSize="15dp"
+        android:layout_below="@+id/profile_pic_2"
+        android:layout_toRightOf="@+id/profile_pic_3"
+        />
+
+    <ImageView
+        android:id="@+id/profile_pic_4"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:src="@mipmap/ic_launcher"
+        android:layout_below="@+id/profile_pic_3"/>
+
+    <TextView
+        android:id="@+id/profile_name_4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:text="Iniesta"
+        android:textSize="15dp"
+        android:layout_below="@+id/profile_pic_3"
+        android:layout_toRightOf="@+id/profile_pic_4"
+        />
+
+
+</RelativeLayout>
